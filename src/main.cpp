@@ -1,4 +1,4 @@
-#include <my_malloc.h>
+#include "../include/my_malloc.h"
 #include <stdio.h>
 
 int main() {
@@ -33,26 +33,6 @@ int main() {
   }
   print_free_list();
   printf("Available memory after: %zd.\n", available_memory());
-
-  // reset_heap();
-
-  // void * new_allocated[10]; 
-
-  // printf("Testing here: %zd. \n", available_memory());
-
-  // for (int i = 0; i < 3; i++) {
-  //   new_allocated[i] = my_malloc(i);
-  // }
-
-  // print_free_list();
-
-  // my_free(allocated[0]);
-
-  // print_free_list(); 
-
-  // my_free(allocated[1]);
-
-  // print_free_list(); 
 
   return 0;
 }
