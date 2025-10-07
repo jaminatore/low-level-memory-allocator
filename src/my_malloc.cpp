@@ -1,5 +1,6 @@
+
 #include <assert.h>
-#include <my_malloc.h>
+#include "../include/my_malloc.h"
 #include <stdio.h>
 #include <sys/mman.h>
 
@@ -80,6 +81,7 @@ void print_free_list() {
 // previous - the previous node to the found node
 //
 void find_free(size_t size, node_t **found, node_t **previous) {
+  // piazza post??
   heap(); 
   // initialize nodes
   node_t *current_node = head; 
