@@ -1,7 +1,5 @@
 # Custom Memory Allocator
 
-### WIP
-
 This project implements a simplified custom memory allocator in C/C++, similar to `malloc()` and `free()` in the standard library. It manages a manually allocated heap using `mmap()` and a linked list free list structure.
 
 The goal is to demonstrate how dynamic memory management can be built from scratch, including allocation, deallocation, and coalescing of free blocks.
